@@ -1,2 +1,2 @@
-# Cats_and_dogs-CNN
+# Cats_and_dogs-classfication-scikit-learn
 
