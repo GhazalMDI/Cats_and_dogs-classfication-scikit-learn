@@ -2,15 +2,11 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.neural_network import MLPClassifier
 from imutils import paths
-from PIL import Image
-from numpay as asarray
+
 dataset_cat = r'C:\Users\Ghazal\Documents\GitHub\Cats_and_dogs-CNN\PetImages\Cat'
 imagePaths = list(paths.list_images(dataset_cat))
 print(imagePaths)
-for i in dataset:
-    image = Image.open(i)
-    data = asarray(image)
-    print(data)
+
 
 
 X = ...
